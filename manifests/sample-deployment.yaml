@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: gitops-lab
-        image: <your_dockerhub_username>/gitops-lab:v1
+        image: jds3791/gitops-lab:v1
         ports:
         - containerPort: 8080
